@@ -1,28 +1,28 @@
 class Dbguard < Formula
   desc "Catch database migrations that will lock production, and schema drift"
   homepage "https://github.com/OriginalDaniel02/dbguard"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.4.0/dbguard_darwin_arm64"
-      sha256 "df67a55d8c29ea4fe9c33e42526c887bc9cacbbe9c93103d4609c1265fd7aa23"
+      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.5.0/dbguard_darwin_arm64"
+      sha256 "4cdc53477bd932fa99912669c9099523d673adc9a04f5b851b6c10bdbb4e3074"
     end
     on_intel do
-      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.4.0/dbguard_darwin_amd64"
-      sha256 "5ababa4ac09fe064529c76c760586edff51009419d8c6007395b3ed74640c383"
+      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.5.0/dbguard_darwin_amd64"
+      sha256 "6c2cc8d4db5638a5a2ab5afbfd1d9f4908c95f408bcdd6a91f3626ac5e7e6ef5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.4.0/dbguard_linux_arm64"
-      sha256 "6a29a3029e303a56e2fce0d0e17fd5656d9d2e76140ba6706e8c64fc1605ca8c"
+      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.5.0/dbguard_linux_arm64"
+      sha256 "6f0b83f212258080aa87f579be42f2f5eca2a2aa480c19497e98a71456934b91"
     end
     on_intel do
-      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.4.0/dbguard_linux_amd64"
-      sha256 "0a32bcc6b94edfcbfc8f4d27de61e827a5d298e8a4433cce5e945ecd78209302"
+      url "https://github.com/OriginalDaniel02/dbguard/releases/download/v0.5.0/dbguard_linux_amd64"
+      sha256 "5f3821cd2d3f316831e110138f2b7d09a923db62b1d0335c96674b374d3cea69"
     end
   end
 
